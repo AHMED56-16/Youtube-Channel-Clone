@@ -25,6 +25,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000; 
+    background-color: #ffffff;
 }
 
 .header-1 img {
@@ -113,4 +114,56 @@ aside img {
     width: 25px; 
     height: 25px;
     margin: 10px 0; 
+}
+
+aside p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.header-3 {
+    width: 75%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+}
+
+.header-3 img{
+    border-radius: 50%;
+}
+
+.header-3 button{
+    width: 100px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.header-3-a{
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-4{
+    font-size: large;
+    width: 75%; 
+    margin: 10px auto;
+    padding: 0 10px;
+    color: #606060;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+.header-4 span{
+    padding: 20px;
+}
+.header-4 img{
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+    color: #606060;
 }
